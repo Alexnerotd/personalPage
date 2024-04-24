@@ -12,7 +12,7 @@ const MenuTogler = () => {
             Home
           </a>
           <a
-            href="/"
+            href="about"
             className="border border-black rounded-md p-3 shadow-violet-600 shadow-lg hover:bg-violet-600"
           >
             About
