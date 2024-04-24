@@ -53,8 +53,8 @@ const Header = () => {
           <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
         </div>
-        <div className="container-social flex h-full w-full basis-1/3 items-center lg:flex hidden justify-evenly">
-          <a href="" className="ml-52">
+        <div className="container-social flex h-full w-full basis-1/3 items-center border lg:flex hidden justify-end">
+          <a href="" className="">
             <svg
               width="70px"
               height="70px"
@@ -135,7 +135,7 @@ const Header = () => {
               </g>
             </svg>
           </a>
-          <a href="" className="">
+          <a href="" className="mr-20">
             <svg
               fill="#fffafa"
               width="70px"
