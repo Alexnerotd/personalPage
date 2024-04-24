@@ -8,7 +8,8 @@ import Layout from "../layouts/Layout.astro";
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
   />
   <div
-    class="container-home w-full lg:h-[850px] h-[750px] bg-gradient-to-b from-black via-blue-950 to-violet-950 text-white flex justify-center items-center"
+    class="container-home w-full lg:h-[850px] h-[750px] bg-gradient-to-b from-black
+     via-blue-950 to-violet-950 text-white flex justify-center items-center"
   >
     <div class="container-home-presentation mb-32">
       <h1 class="lg:text-6xl text-4xl text-center">
@@ -49,42 +50,41 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </div>
-  <div class="container-sections snap-y snap-mandatory">
-    <section
-      id="about"
-      class="w-full h-screen bg-gradient-to-b from-violet-950 to-blue-800 text-white snap-start snap-mandatory"
-    >
-      <div class="container-header-about w-full h-full">
-        <div
-          class="container-title-about w-full h-full flex justify-center font-semibold text-5xl"
-        >
-          <h1>About</h1>
-        </div>
-      </div>
-    </section>
-    <section
-      id="projects"
-      class="w-full h-screen scroll-snap-start text-white bg-gradient-to-b from-blue-800 to-violet-500"
-    >
-      <div class="container-header-projects h-full w-full">
-        <div
-          class="container-title-projects h-full w-full flex justify-center font-semibold text-5xl"
-        >
-          <h1>Projects</h1>
-        </div>
-      </div>
-    </section>
-    <section
-      id="contact"
-      class="w-full h-screen text-white bg-gradient-to-b from-violet-500 via-violet-500 to-black"
-    >
+
+  <section
+    id="about"
+    class="w-full h-screen bg-gradient-to-b from-violet-950 to-blue-800 text-white snap-start"
+  >
+    <div class="container-header-about w-full h-full">
       <div
-        class="container-header-contact h-full w-full flex justify-center font-semibold text-5xl"
+        class="container-title-about w-full h-full flex justify-center font-semibold text-5xl"
       >
-        <div class="container-title-contact">
-          <h1>Contact</h1>
-        </div>
+        <h1>About</h1>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+  <section
+    id="projects"
+    class="w-full h-screen scroll-snap-start text-white bg-gradient-to-b from-blue-800 to-violet-500 snap-start"
+  >
+    <div class="container-header-projects h-full w-full">
+      <div
+        class="container-title-projects h-full w-full flex justify-center font-semibold text-5xl"
+      >
+        <h1>Projects</h1>
+      </div>
+    </div>
+  </section>
+  <section
+    id="contact"
+    class="w-full h-screen text-white bg-gradient-to-b from-violet-500 via-violet-500 to-black snap-start"
+  >
+    <div
+      class="container-header-contact h-full w-full flex justify-center font-semibold text-5xl"
+    >
+      <div class="container-title-contact">
+        <h1>Contact</h1>
+      </div>
+    </div>
+  </section>
 </Layout>

@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 const MenuTogler = () => {
   return (
     <>
-      <div className="container-menu w-full h-full bg-black text-white">
+      <div className="container-menu w-full h-full bg-black text-white snap-start">
         <div className="container-link h-full w-full flex items-center justify-evenly">
           <a href="/" className="border rounded-md p-3 hover:bg-green-600">
             Home
@@ -37,7 +37,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="container-navbar w-full h-24 lg:h-32 flex bg-black text-white">
+      <div className="container-navbar w-full h-24 lg:h-32 flex bg-black text-white snap-start">
         <div className="container-title basis-1/2 lg:basis-1/3 flex h-full w-full items-center justify-center text-2xl lg:text-4xl font-semibold tracking-widest">
           <a href="/">NEROCODE</a>
         </div>
