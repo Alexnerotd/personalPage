@@ -6,6 +6,9 @@ export default {
       colors: {
         "rgba-black": "rgba(27, 27, 27, 1)",
       },
+      fontFamily: {
+        sans: ["Montserrat", "sans"],
+      },
     },
   },
   plugins: [],

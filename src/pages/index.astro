@@ -3,5 +3,42 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout titleSubPage="Home">
-  <h1>Home</h1>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+  />
+  <div
+    class="container-home w-full lg:h-[850px] h-[400px] bg-black text-white flex justify-center items-center"
+  >
+    <div class="container-home-presentation">
+      <h1 class="lg:text-6xl text-4xl text-center">
+        My work is your best solution.
+      </h1>
+      <h2 class="text-3xl lg:m-10 m-5 text-center">
+        <span
+          id="full"
+          class="text-blue-500 animate-pulse lg:border rounded-md lg:px-5 px-2 py-2 shadow-2xl shadow-blue-800"
+          >Full</span
+        >
+        <span
+          id="stack"
+          class="text-green-500 animate-pulse lg:border rounded-md py-2 lg:px-2 p-1 shadow-2xl shadow-green-800"
+          >Stack</span
+        >
+        <span
+          id="developer"
+          class="text-violet-500 animate-pulse lg:border rounded-md py-2 px-2 shadow-2xl shadow-violet-800"
+          >Developer</span
+        >
+      </h2>
+      <h3 class="text-center text-3xl">Jesus Alejandro</h3>
+    </div>
+    <div class="container-home-footer"></div>
+  </div>
 </Layout>
+
+<style>
+  #full {
+    text-shadow: 50px 50px 50px blue;
+  }
+</style>

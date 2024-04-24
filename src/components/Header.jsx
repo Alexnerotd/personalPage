@@ -3,30 +3,24 @@ import { useState, useEffect, useRef } from "react";
 const MenuTogler = () => {
   return (
     <>
-      <div className="container-menu w-full h-full bg-rgba-black text-white">
+      <div className="container-menu w-full h-full bg-black text-white">
         <div className="container-link h-full w-full flex items-center justify-evenly">
-          <a
-            href="/"
-            className="border border-black rounded-md p-3 shadow-green-600 shadow-lg hover:bg-green-600"
-          >
+          <a href="/" className="border rounded-md p-3 hover:bg-green-600">
             Home
           </a>
           <a
             href="/about"
-            className="border border-black rounded-md p-3 shadow-violet-600 shadow-lg hover:bg-violet-600"
+            className="border rounded-md p-3 hover:bg-violet-600"
           >
             About
           </a>
           <a
             href="/projects"
-            className="border border-black rounded-md p-3 shadow-blue-600 shadow-lg hover:bg-blue-600"
+            className="border rounded-md p-3 hover:bg-blue-600"
           >
             Projects
           </a>
-          <a
-            href="/contact"
-            className="border border-black rounded-md p-3 shadow-red-600 shadow-lg hover:bg-red-600"
-          >
+          <a href="/contact" className="border rounded-md p-3 hover:bg-red-600">
             Contact
           </a>
         </div>
@@ -43,7 +37,7 @@ const Header = () => {
   };
   return (
     <>
-      <div className="container-navbar w-full h-24 lg:h-28 flex bg-black text-white">
+      <div className="container-navbar w-full h-24 lg:h-32 flex bg-black text-white">
         <div className="container-title basis-1/2 lg:basis-1/3 flex h-full w-full items-center justify-center text-2xl lg:text-4xl font-semibold tracking-widest">
           <a href="/">NEROCODE</a>
         </div>
