@@ -170,7 +170,7 @@ const Header = () => {
           </a>
         </div>
 
-        <div className="container-button-togler basis-1/2 h-full w-full flex items-center justify-center lg:hidden">
+        <div className="container-button-togler basis-1/2 h-full w-full flex items-center justify-end mr-5 lg:hidden">
           <button onClick={handlerMenuHidden}>
             <svg
               className="border rounded-md"
