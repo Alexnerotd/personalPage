@@ -53,8 +53,8 @@ const Header = () => {
           <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
         </div>
-        <div className="container-social flex h-full w-full basis-1/3 items-center border lg:flex hidden justify-end">
-          <a href="" className="">
+        <div className="container-social flex gap-5 h-full w-full basis-1/3 items-center lg:flex hidden justify-end">
+          <a href="" className="p-4">
             <svg
               width="70px"
               height="70px"
@@ -122,11 +122,11 @@ const Header = () => {
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
               <g
                 id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               ></g>
               <g id="SVGRepo_iconCarrier">
                 {" "}
@@ -135,7 +135,7 @@ const Header = () => {
               </g>
             </svg>
           </a>
-          <a href="" className="mr-20">
+          <a href="" className="mr-20 p-4">
             <svg
               fill="#fffafa"
               width="70px"
