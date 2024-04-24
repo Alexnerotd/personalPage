@@ -45,13 +45,16 @@ const Header = () => {
           <a className="hover:underline" href="/">
             Home
           </a>
-          <a className="hover:underline" href="/about">
+          <a
+            className="hover:underline transition-all duration-300 ease-in-out"
+            href="#about"
+          >
             About
           </a>
-          <a className="hover:underline" href="/projects">
+          <a className="hover:underline" href="#projects">
             Projects
           </a>
-          <a className="hover:underline" href="/contact">
+          <a className="hover:underline" href="#contact">
             Contact
           </a>
         </div>
