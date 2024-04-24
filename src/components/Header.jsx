@@ -12,19 +12,19 @@ const MenuTogler = () => {
             Home
           </a>
           <a
-            href="about"
+            href="/about"
             className="border border-black rounded-md p-3 shadow-violet-600 shadow-lg hover:bg-violet-600"
           >
             About
           </a>
           <a
-            href="projects"
+            href="/projects"
             className="border border-black rounded-md p-3 shadow-blue-600 shadow-lg hover:bg-blue-600"
           >
             Projects
           </a>
           <a
-            href="contact"
+            href="/contact"
             className="border border-black rounded-md p-3 shadow-red-600 shadow-lg hover:bg-red-600"
           >
             Contact
