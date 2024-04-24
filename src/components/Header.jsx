@@ -42,13 +42,21 @@ const Header = () => {
           <a href="/">NEROCODE</a>
         </div>
         <div className="container-link flex h-full w-full basis-1/2 items-center lg:flex hidden justify-around text-2xl">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/projects">Projects</a>
-          <a href="/contact">Contact</a>
+          <a className="hover:underline" href="/">
+            Home
+          </a>
+          <a className="hover:underline" href="/about">
+            About
+          </a>
+          <a className="hover:underline" href="/projects">
+            Projects
+          </a>
+          <a className="hover:underline" href="/contact">
+            Contact
+          </a>
         </div>
         <div className="container-social flex gap-5 h-full w-full basis-1/3 items-center lg:flex hidden justify-end">
-          <a href="" className="p-4">
+          <a href="https://github.com/Alexnerotd" className="p-4">
             <svg
               width="70px"
               height="70px"
@@ -107,7 +115,10 @@ const Header = () => {
               </g>
             </svg>
           </a>
-          <a href="" className="">
+          <a
+            href="https://www.facebook.com/profile.php?id=100081747791567"
+            className=""
+          >
             <svg
               fill="white"
               width="100px"
@@ -129,7 +140,10 @@ const Header = () => {
               </g>
             </svg>
           </a>
-          <a href="" className="mr-20 p-4">
+          <a
+            href="https://linkedin.com/in/jesus-alejandro-532aa126b"
+            className="mr-20 p-4"
+          >
             <svg
               fill="#fffafa"
               width="70px"
