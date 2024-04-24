@@ -9,18 +9,18 @@ const MenuTogler = () => {
             Home
           </a>
           <a
-            href="/about"
+            href="#about"
             className="border rounded-md p-3 hover:bg-violet-600"
           >
             About
           </a>
           <a
-            href="/projects"
+            href="#projects"
             className="border rounded-md p-3 hover:bg-blue-600"
           >
             Projects
           </a>
-          <a href="/contact" className="border rounded-md p-3 hover:bg-red-600">
+          <a href="#contact" className="border rounded-md p-3 hover:bg-red-600">
             Contact
           </a>
         </div>

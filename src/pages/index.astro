@@ -49,40 +49,42 @@ import Layout from "../layouts/Layout.astro";
       </div>
     </div>
   </div>
-  <section
-    id="about"
-    class="w-full h-screen bg-gradient-to-b from-violet-950 to-blue-800 text-white"
-  >
-    <div class="container-header-about w-full h-full">
-      <div
-        class="container-title-about w-full h-full flex justify-center font-semibold text-5xl"
-      >
-        <h1>About</h1>
-      </div>
-    </div>
-  </section>
-  <section
-    id="projects"
-    class="w-full h-screen scroll-snap-start text-white bg-gradient-to-b from-blue-800 to-violet-500"
-  >
-    <div class="container-header-projects h-full w-full">
-      <div
-        class="container-title-projects h-full w-full flex justify-center font-semibold text-5xl"
-      >
-        <h1>Projects</h1>
-      </div>
-    </div>
-  </section>
-  <section
-    id="contact"
-    class="w-full h-screen text-white bg-gradient-to-b from-violet-500 via-violet-500 to-black"
-  >
-    <div
-      class="container-header-contact h-full w-full flex justify-center font-semibold text-5xl"
+  <div class="container-sections snap-y snap-mandatory">
+    <section
+      id="about"
+      class="w-full h-screen bg-gradient-to-b from-violet-950 to-blue-800 text-white snap-start snap-mandatory"
     >
-      <div class="container-title-contact">
-        <h1>Contact</h1>
+      <div class="container-header-about w-full h-full">
+        <div
+          class="container-title-about w-full h-full flex justify-center font-semibold text-5xl"
+        >
+          <h1>About</h1>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section
+      id="projects"
+      class="w-full h-screen scroll-snap-start text-white bg-gradient-to-b from-blue-800 to-violet-500"
+    >
+      <div class="container-header-projects h-full w-full">
+        <div
+          class="container-title-projects h-full w-full flex justify-center font-semibold text-5xl"
+        >
+          <h1>Projects</h1>
+        </div>
+      </div>
+    </section>
+    <section
+      id="contact"
+      class="w-full h-screen text-white bg-gradient-to-b from-violet-500 via-violet-500 to-black"
+    >
+      <div
+        class="container-header-contact h-full w-full flex justify-center font-semibold text-5xl"
+      >
+        <div class="container-title-contact">
+          <h1>Contact</h1>
+        </div>
+      </div>
+    </section>
+  </div>
 </Layout>
