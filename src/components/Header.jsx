@@ -4,7 +4,7 @@ const MenuTogler = () => {
   return (
     <>
       <div className="container-menu w-full h-full bg-black text-white snap-start">
-        <div className="container-link h-full w-full flex items-center justify-evenly">
+        <div className="container-link h-full w-full flex items-center justify-evenly lg:hidden">
           <a href="/" className="border rounded-md p-3 hover:bg-green-600">
             Home
           </a>
